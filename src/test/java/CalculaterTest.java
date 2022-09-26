@@ -8,35 +8,30 @@ public class CalculaterTest{
     public void sumTest(){
         Calculater c = new Calculater();
         int b = c.sum(2, 2);
-        int t = 4;
-        assertEquals(b, t);
+        assertEquals(4, b);
     }
     @Test
     public void subTest(){
         Calculater c = new Calculater();
         int b = c.sub(2, 2);
-        int t = 0;
-        assertEquals(b, t);
+        assertEquals(0, b);
     }
     @Test
     public void multiplTest(){
         Calculater c = new Calculater();
         int b = c.multipl(2, 2);
-        int t = 4;
-        assertEquals(b, t);
+        assertEquals(4, b);
     }
     @Test
     public void divTest(){
         Calculater c = new Calculater();
         int b = c.div(4, 2);
-        int t = 2;
-        assertEquals(b, t);
+        assertEquals(2, b);
     }
     @Test
     public void PerTest(){
         Calculater c = new Calculater();
         int b = c.Per(2, 2);
-        int t = 8;
-        assertEquals(b, t);
+        assertEquals(8, b);
     }
 }
